@@ -1,0 +1,30 @@
+{
+    "name": "diversen/simple-php-github-api",
+    "type": "library",
+    "description": "simple php github api",
+    "homepage": "http://github.com/diversen/simple-php-github-api",
+    "keywords": ["github", "API"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dennis Iversen",
+            "email": "dennis.iversen@gmail.com",
+            "homepage": "http://os-cms.net/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "diversen/mycurl": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "diversen\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

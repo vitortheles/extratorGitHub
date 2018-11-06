@@ -1,0 +1,6 @@
+<?php
+
+define('GITHUB_ID', "1847bb55c4eccc9d429d");
+define('GITHUB_SECRET', "700a3307df3c181ad702c87ffa178299c2b47814");
+define('GITHUB_CALLBACK_URL', 'http://localhost:80/cinpro/app/callback.php');
+define('GITHUB_SCOPE', 'user');
